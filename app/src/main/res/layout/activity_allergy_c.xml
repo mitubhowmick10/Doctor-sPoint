@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.mitubhowmick10.version.AnimFirstAid.AllergyC">
+    <TextView android:id="@+id/s1" android:textColor="@color/colorPrimaryDark" android:textSize="20dp" android:layout_width="200dp" android:layout_height="30dp" android:text="Dust Mites" tools:layout_editor_absoluteX="33dp" tools:layout_editor_absoluteY="50dp"/><TextView android:id="@+id/s2" android:layout_below="@+id/s1" android:textColor="@color/colorPrimaryDark" android:textSize="20dp" android:layout_width="200dp" android:layout_height="30dp" android:text="Animal Dander" tools:layout_editor_absoluteX="33dp" tools:layout_editor_absoluteY="50dp"/><TextView android:id="@+id/s3" android:layout_below="@+id/s2" android:textColor="@color/colorPrimaryDark" android:textSize="20dp" android:layout_width="200dp" android:layout_height="30dp" android:text="Certain Foods" tools:layout_editor_absoluteX="33dp" tools:layout_editor_absoluteY="50dp"/><TextView android:id="@+id/s4" android:layout_below="@+id/s3" android:textColor="@color/colorPrimaryDark" android:textSize="20dp" android:layout_width="200dp" android:layout_height="30dp" android:text="Penicilin Based Medicines" tools:layout_editor_absoluteX="33dp" tools:layout_editor_absoluteY="50dp"/><TextView android:id="@+id/s5" android:layout_below="@+id/s4" android:textColor="@color/colorPrimaryDark" android:textSize="20dp" android:layout_width="200dp" android:layout_height="30dp" android:text="Latex" tools:layout_editor_absoluteX="33dp" tools:layout_editor_absoluteY="50dp"/><Button android:id="@+id/back" android:layout_width="200dp" android:layout_height="80dp" android:textSize="20dp" android:textColor="@color/colorPrimaryDark" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" android:text="Back" tools:layout_editor_absoluteX="200dp" tools:layout_editor_absoluteY="30dp"/>
+
+</RelativeLayout>

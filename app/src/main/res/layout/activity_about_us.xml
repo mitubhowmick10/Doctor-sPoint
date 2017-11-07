@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mitu"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="1.Name:Mitu Bhowmick \n Roll: JN-82"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/anim"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/mitu"
+        android:background="@color/colorPrimaryDark"
+        android:text="2.Name:Nafis Imtiyaz Anim \n Roll: AE-38"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/abid"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/anim"
+        android:background="@color/colorPrimaryDark"
+        android:text="3.Name:Abid Raihan \n Roll: SH-86"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/batch"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/abid"
+        android:background="@color/colorPrimaryDark"
+        android:text="CSEDU-22ND BATCH \n UNIVERSITY OF DHAKA"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        />
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/back_button"
+        android:layout_below="@+id/batch" />
+
+</RelativeLayout>

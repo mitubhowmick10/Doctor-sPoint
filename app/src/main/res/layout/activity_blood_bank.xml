@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.mitubhowmick10.version.BloodBankActivity">
+
+    <Button
+        android:id="@+id/donar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Donate"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/donar"
+        android:text="Available Donar"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/ap"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:checked="false"
+        android:text="A+"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/am"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ap"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:checked="false"
+        android:text="A-"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:id="@+id/abp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/am"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:checked="false"
+        android:text="AB+"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:id="@+id/abm"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/abp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:checked="false"
+        android:text="AB-"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:id="@+id/bp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:checked="false"
+        android:text="B+"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/text"
+        android:layout_alignLeft="@+id/bm"
+        android:layout_alignStart="@+id/bm"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:id="@+id/bm"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:checked="false"
+        android:text="B-"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/bp"
+        android:layout_alignLeft="@+id/op"
+        android:layout_alignStart="@+id/op"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/op"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:checked="false"
+        android:text="O+"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/bm"
+        android:layout_alignLeft="@+id/om"
+        android:layout_alignStart="@+id/om"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/om"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:checked="false"
+        android:text="O-"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/op"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/back_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

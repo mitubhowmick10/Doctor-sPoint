@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.mitubhowmick10.version.MenuPageActivity">
+
+    <Button android:id="@+id/first_aid"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="First\nAid"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button android:id="@+id/AI_Doctor"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="AI\nDoctor"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/first_aid"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button android:id="@+id/help"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="Help\n"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/AI_Doctor"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button android:id="@+id/BMI_Calculation"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="Bmi\nCalculator"
+        android:background="@color/colorAccent"
+        android:layout_toRightOf="@+id/first_aid"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button android:id="@+id/Quick_Appointment"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="Quick\nAppointment"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/BMI_Calculation"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignStart="@+id/BMI_Calculation"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button android:id="@+id/Review"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="Review\n"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/Quick_Appointment"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignTop="@+id/help"
+        android:layout_toStartOf="@+id/Imergency_blood"/>
+
+    <Button android:id="@+id/About_Us"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="About\nUs"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignBottom="@+id/Review"
+        android:layout_alignStart="@+id/Imergency_blood" />
+
+    <Button android:id="@+id/Nearest_Hospital_Location"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="Find\nHospital"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignBottom="@+id/Quick_Appointment"
+        android:layout_alignStart="@+id/About_Us"
+        android:layout_alignTop="@+id/Quick_Appointment" />
+
+    <Button android:id="@+id/Imergency_blood"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:text="Emergency\nBlood"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignTop="@+id/BMI_Calculation"
+        android:layout_toEndOf="@+id/Quick_Appointment"/>
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/back_button"
+        android:layout_below="@+id/help" />
+
+</RelativeLayout>

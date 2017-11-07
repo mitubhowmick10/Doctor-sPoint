@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.mitubhowmick10.version">
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDmgHvAVvMB1GbGhwaEUwPECybaI3mq9yc" />
+    <meta-data
+        android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+    <activity
+        android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".MenuPageActivity" />
+    <activity android:name=".BmiCalculatorActivity" />
+    <activity android:name=".AboutUsActivity" />
+    <activity android:name=".SignInActivity" />
+    <activity android:name=".BloodBankActivity" />
+    <activity android:name=".Google_Maps" />
+    <activity android:name=".MapActivity" />
+    <activity android:name=".DonarActivity" />
+    <activity android:name=".BloodActivity" />
+    <activity android:name=".AnimFirstAid.Main_Page" />
+    <activity android:name=".AnimFirstAid.FeverActivity" />
+    <activity android:name=".AnimFirstAid.FeverSymtoms" />
+    <activity android:name=".AnimFirstAid.fevCauses" />
+    <activity android:name=".AnimFirstAid.AllergyAc" />
+    <activity android:name=".AnimFirstAid.AllergyS" />
+    <activity android:name=".AnimFirstAid.AllergyC" />
+    <activity android:name=".AnimFirstAid.AnemiaAc" />
+    <activity android:name=".AnimFirstAid.AnemiaC" />
+    <activity android:name=".AnimFirstAid.AnemiaS" />
+    <activity android:name=".AnimFirstAid.AppendixAc" />
+    <activity android:name=".AnimFirstAid.AppendixC" />
+    <activity android:name=".AnimFirstAid.AppendixS" />
+    <activity android:name=".AnimFirstAid.AsthmaAc" />
+    <activity android:name=".AnimFirstAid.AsthmaC" />
+    <activity android:name=".AnimFirstAid.AsthmaS" />
+    <activity android:name=".AnimFirstAid.BronchitisC" />
+    <activity android:name=".AnimFirstAid.BronchitisS"/>
+    <activity android:name=".AnimFirstAid.BronchitisAc" />
+    <activity android:name=".AnimFirstAid.ChikungunyaAc" />
+    <activity android:name=".AnimFirstAid.ChikungunyaC" />
+    <activity android:name=".AnimFirstAid.ChikungunyaS" />
+    <activity android:name=".AnimFirstAid.CholeraAc" />
+    <activity android:name=".AnimFirstAid.CholeraC" />
+    <activity android:name=".AnimFirstAid.CholeraS" />
+    <activity android:name=".AnimFirstAid.DengueAc" />
+    <activity android:name=".AnimFirstAid.DengueC" />
+    <activity android:name=".AnimFirstAid.DengueS" />
+    <activity android:name=".AnimFirstAid.DiarrheaAc" />
+    <activity android:name=".AnimFirstAid.DiarrheaC" />
+    <activity android:name=".AnimFirstAid.DiarrheaS" />
+    <activity android:name=".AnimFirstAid.TyphoidAc" />
+    <activity android:name=".AnimFirstAid.TyphoidC" />
+    <activity android:name=".AnimFirstAid.TyphoidS" />
+    <activity android:name=".MapsActivity" />
+    <activity android:name=".HelpPage" />
+    <activity android:name=".Help2"></activity>
+</application>
+</manifest>

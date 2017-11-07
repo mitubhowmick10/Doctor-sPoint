@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mitubhowmick10.version.MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary"
+        android:text="Welcome To Doctor's Point"
+        android:textSize="50dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_above="@+id/contin"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/contin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Continue"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/exit"
+        android:layout_alignParentStart="true"/>
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="EXIT"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

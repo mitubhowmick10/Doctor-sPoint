@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.mitubhowmick10.version.HelpPage">
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/backmain"
+        android:layout_toRightOf="@+id/backmain"
+        android:text="Start Page"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_centerHorizontal="true"
+        android:text="FIRST AID"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="60dp" />
+    <TextView
+        android:id="@+id/b3"
+        android:layout_below="@+id/b2"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textSize="25dp"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="Gives information about some common diseases"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="50dp" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b3"
+        android:text="BMI CALCULATOR"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="60dp" />
+    <TextView
+        android:id="@+id/b5"
+        android:layout_below="@+id/b4"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textSize="25dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:text="Show your BMI status"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="50dp" />
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/b5"
+        android:text="EMERGENCY BLOOD"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="60dp" />
+    <TextView
+        android:id="@+id/b7"
+        android:layout_below="@+id/b6"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textSize="25dp"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:text="Helps to donate or search donator"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="50dp" />
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b7"
+        android:text="FIND HOSPITAL"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="60dp" />
+    <TextView
+        android:id="@+id/b9"
+        android:layout_below="@+id/b8"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Helps you to get to know about nearst hospiital"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/b9"
+        android:text="Next"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/backmain"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/b9"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+</RelativeLayout>

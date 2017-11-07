@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mitubhowmick10.version.BmiCalculatorActivity">
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Enter Your Weight: "
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />.
+    <EditText
+        android:id="@+id/editweight"
+        android:layout_width="80dp"
+        android:layout_height="56dp"
+        android:hint="Weight"
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"
+        android:layout_above="@+id/height"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_below="@+id/weight"
+        android:background="@color/colorPrimary"
+        android:text="Enter Your Height: "
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <EditText
+        android:id="@+id/editheight"
+        android:layout_width="80dp"
+        android:layout_height="56dp"
+        android:hint="Height..."
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_above="@+id/result"
+        android:layout_alignLeft="@+id/editweight"
+        android:layout_alignStart="@+id/editweight"
+        android:layout_marginBottom="10dp" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/result"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/bmianalysis" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_below="@+id/height"
+        android:background="@color/colorPrimaryDark"
+        android:text="Your BMI is : "
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/analysis"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_below="@+id/result"
+        android:background="@color/colorPrimary"
+        android:text="Analysis: "
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/back_button"
+        android:layout_below="@+id/analysis"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:text="KG"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_above="@+id/height"
+        android:layout_toRightOf="@+id/editweight"
+        android:layout_toEndOf="@+id/editweight" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="M"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_alignTop="@+id/editheight"
+        android:layout_toRightOf="@+id/editheight"
+        android:layout_toEndOf="@+id/editheight" />
+    <TextView
+        android:id="@+id/bmiresult"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:layout_above="@+id/analysis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+    <TextView
+        android:id="@+id/bmianalysis"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:layout_marginBottom="44dp"
+        android:layout_above="@+id/back_button"
+        />
+</RelativeLayout>
